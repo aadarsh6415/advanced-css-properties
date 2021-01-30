@@ -1,0 +1,39 @@
+h1{
+    color:#AD2C61
+    
+}
+*{
+    
+    background-color: #00ff22;
+    
+}
+.games{
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+}
+
+.item p{
+    position:absolute;
+    margin-top:-130px;
+    margin-left:50px;
+    opacity:0;
+
+}
+.item:hover p{
+    opacity:1;
+
+}
+.item:hover img{
+    opacity:0.5;
+}
+a:link{
+    color:aqua
+}
+a:visited{
+    color:blueviolet
+}
+h1{
+    margin-left:100px;
+    padding-left:400px;
+}
